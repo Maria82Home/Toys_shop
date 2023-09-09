@@ -21,12 +21,10 @@ public class Main {
         }
     }
     public static void main(String[] args) {
-        Toy t1 = new Lego();
-        Toy t2 = new Robot();
-        Toy t3 = new Doll();
         toys.add(new Lego());
         toys.add(new Robot());
         toys.add(new Doll());
+        toys.add(new Teddy());
         System.out.println("Разыгрываем игрушки:");
         for(Toy item : toys){
             System.out.println(item.getInfo());

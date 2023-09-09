@@ -1,6 +1,6 @@
 public class Robot extends Toy{
     public Robot() {
-        super(2,2,"робот");
+        super(2,1,"робот");
 
     }
 

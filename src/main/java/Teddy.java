@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public class Teddy {
+public class Teddy extends Toy{
+    public Teddy() {
+        super(4,3,"мишка");
+
+    }
 }
